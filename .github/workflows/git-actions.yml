@@ -6,9 +6,10 @@ jobs:
      runs-on: ubuntu-latest 
      steps:
        - uses: actions/checkout@v2 
-       - name: Say Hello World # Step 2: Type the word 'Hello World'
+       - name: Say Hello World 
          run: echo 'Hello World'
-       - name: View a file # Step 3: Two sub-steps involved
+         
+       - name: View a file 
          run: |
            echo 'Viewing the file: '
            cat requirements.txt
