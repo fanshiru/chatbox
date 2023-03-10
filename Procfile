@@ -1,1 +1,1 @@
-python: python chatbot.py
+python: python lab4.ipynb
