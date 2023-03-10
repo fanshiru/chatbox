@@ -12,4 +12,4 @@ jobs:
        - name: View a file 
          run: |
            echo 'Viewing the file: '
-           cat requirements.txt
+           cat requirement.txt
